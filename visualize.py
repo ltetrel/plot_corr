@@ -35,5 +35,3 @@ def plot_feature_select(corr, p, feature_list, report_path):
 
 if __name__ == "__main__":
   curr_filepath = os.path.dirname(__file__)
-  plot_loss_example(os.path.join(curr_filepath, "../../reports/training/auto_regression/1632453633612"))
-  plot_metrics(os.path.join(curr_filepath, "../../reports/training/auto_regression/1632453633612"))
